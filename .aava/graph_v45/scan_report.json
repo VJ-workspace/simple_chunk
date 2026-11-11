@@ -9,6 +9,7 @@
     ".sql: file type not used": 3
   },
   "skipped_dirs": {
+    ".aava": 1,
     "docs": 1
   },
   "kb_by_ext_kept": {
@@ -26,6 +27,12 @@
   ],
   "source_roots_mode": "whole repository, files outside the source folders are zone 'support'",
   "skipped_dir_detail": [
+    {
+      "path": ".aava",
+      "rule": "R03",
+      "code_files_inside": 0,
+      "files_inside": 7
+    },
     {
       "path": "docs",
       "rule": "R02",
@@ -61,6 +68,10 @@
     },
     {
       "rule": "R02 build, vendor or download folder",
+      "hits": 1
+    },
+    {
+      "rule": "R03 hidden folder",
       "hits": 1
     },
     {

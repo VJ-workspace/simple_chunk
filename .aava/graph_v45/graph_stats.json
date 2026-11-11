@@ -57,6 +57,10 @@
         "hits": 1
       },
       {
+        "rule": "R03 hidden folder",
+        "hits": 1
+      },
+      {
         "rule": "R12 file type that is not program code, html or css",
         "hits": 8
       },
@@ -66,9 +70,16 @@
       }
     ],
     "skipped_folders": {
+      ".aava": 1,
       "docs": 1
     },
     "skipped_folder_detail": [
+      {
+        "path": ".aava",
+        "rule": "R03",
+        "code_files_inside": 0,
+        "files_inside": 7
+      },
       {
         "path": "docs",
         "rule": "R02",
