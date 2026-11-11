@@ -1,0 +1,22 @@
+{
+  "step": {
+    "tool": "StopwordtoolV1 (merged)",
+    "fields": [
+      "keywords"
+    ],
+    "spread": 0.0,
+    "keep_tests": false,
+    "no_redundant": false,
+    "no_new_rules": false,
+    "report": "stopword_report.json"
+  },
+  "fields": {
+    "keywords": {
+      "before": 0,
+      "after": 0,
+      "removed": 0,
+      "removed_by_rule": {},
+      "examples": {}
+    }
+  }
+}

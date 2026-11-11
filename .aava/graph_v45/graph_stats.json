@@ -1,0 +1,606 @@
+{
+  "stats_version": 1,
+  "tool": "NodesEdgesgeneratortoolV43",
+  "how_to_read": "scan = files and folders read or skipped (with the rule); nodes = what each node holds; keywords, comments, text_fields, calls_and_links, css = what was kept and what was left out, with the actual words; output_guard = size limit; per_file = the same per file.",
+  "scan": {
+    "settings": {
+      "source_roots": "auto",
+      "exclude_tests": false,
+      "exclude_examples": true,
+      "max_code_file_kb": 1000,
+      "max_text_file_kb": 200,
+      "max_output_file_mb": 30,
+      "snippet_max_lines": 60,
+      "metadata_max_labels": 20,
+      "metadata_max_keywords": 0,
+      "metadata_max_defines": 15,
+      "english_only": true,
+      "scrub": true
+    },
+    "source_roots": [
+      "src"
+    ],
+    "source_roots_mode": "whole repository, files outside the source folders are zone 'support'",
+    "share_of_code_files_in_source_roots": 1.0,
+    "files_kept": 12,
+    "kept_by_type": {
+      ".py (code)": 12
+    },
+    "kept_kb_by_type": {
+      ".py": 1451.3
+    },
+    "files_skipped": 8,
+    "skipped_by_reason_and_type": {
+      ".md: file type not used": 3,
+      ".yaml: file type not used": 1,
+      ".json: file type not used": 1,
+      ".sql: file type not used": 3
+    },
+    "skipped_kb_by_type": {
+      ".md": 43.0,
+      ".yaml": 6.0,
+      ".json": 8.3,
+      ".sql": 23.2
+    },
+    "rules_that_fired": [
+      {
+        "rule": "R01 source roots",
+        "active": true,
+        "setting": "auto",
+        "condition": "auto = read the whole repo; files outside src, source, lib, app, pkg, internal, cmd, include get zone 'support' (only when those folders hold 60% or more of the code files). auto_only = read only those folders.",
+        "result": [
+          "src"
+        ]
+      },
+      {
+        "rule": "R02 build, vendor or download folder",
+        "hits": 1
+      },
+      {
+        "rule": "R12 file type that is not program code, html or css",
+        "hits": 8
+      },
+      {
+        "rule": "note",
+        "text": "Full list of rules and conditions: SKIP_RULES.md in the kit"
+      }
+    ],
+    "skipped_folders": {
+      "docs": 1
+    },
+    "skipped_folder_detail": [
+      {
+        "path": "docs",
+        "rule": "R02",
+        "code_files_inside": 0,
+        "files_inside": 3
+      }
+    ],
+    "skipped_file_examples": {
+      "R12": [
+        "ARCHITECTURE.md",
+        "CLASS_CALL_MAP.md",
+        "README.md",
+        "config/app.yaml",
+        "config/database.json",
+        "sql/001_create_users.sql",
+        "sql/002_create_orders.sql",
+        "sql/003_create_inventory.sql"
+      ]
+    },
+    "oversized_code_files_skipped": [],
+    "zones": {
+      "product": 12
+    },
+    "languages": {
+      "python": 12
+    },
+    "parse_errors": []
+  },
+  "nodes": {
+    "total": 86,
+    "by_kind": {
+      "File": 12,
+      "Class": 12,
+      "Function": 62
+    },
+    "by_tier": {
+      "code": 86
+    },
+    "by_zone": {
+      "product": 86
+    },
+    "functions_and_classes": 74,
+    "field_filled_on_functions_and_classes": {
+      "labels": 0,
+      "literals": 50,
+      "defines": 12,
+      "keywords": 0,
+      "summarycomment": 50,
+      "code_snippet": 74,
+      "internals.calls": 0,
+      "internals.reads": 0,
+      "internals.writes": 12,
+      "internals.throws": 0,
+      "internals.resources": 0
+    }
+  },
+  "keywords": {
+    "per_node": {
+      "average": 0.0,
+      "median": 0,
+      "p90": 0,
+      "max": 0
+    },
+    "counts": {
+      "candidates": 234,
+      "dropped at extraction: stop word (list L5)": 250,
+      "dropped at extraction: the node's own name": 72,
+      "dropped: already in the node's calls / reads / writes / throws": 12,
+      "dropped: already in the node's name / qualified name / signature": 50,
+      "dropped: already in the node's summarycomment": 1,
+      "dropped: found in more than 4% of all nodes": 99
+    },
+    "dropped_words_by_cause": {
+      "stop word (list L5)": [
+        [
+          "self",
+          74
+        ],
+        [
+          "def",
+          62
+        ],
+        [
+          "none",
+          50
+        ],
+        [
+          "return",
+          50
+        ],
+        [
+          "class",
+          12
+        ],
+        [
+          "delete",
+          1
+        ],
+        [
+          "export",
+          1
+        ]
+      ],
+      "the node's own name": [
+        [
+          "__init__",
+          12
+        ],
+        [
+          "create_order",
+          2
+        ],
+        [
+          "cancel_order",
+          2
+        ],
+        [
+          "update_order",
+          2
+        ],
+        [
+          "refund_payment",
+          2
+        ],
+        [
+          "authcontroller",
+          1
+        ],
+        [
+          "login",
+          1
+        ],
+        [
+          "register",
+          1
+        ],
+        [
+          "logout",
+          1
+        ],
+        [
+          "refresh_token",
+          1
+        ],
+        [
+          "get_profile",
+          1
+        ],
+        [
+          "ordercontroller",
+          1
+        ],
+        [
+          "get_order",
+          1
+        ],
+        [
+          "paymentcontroller",
+          1
+        ],
+        [
+          "process_payment",
+          1
+        ],
+        [
+          "payment_status",
+          1
+        ],
+        [
+          "inventoryrepository",
+          1
+        ],
+        [
+          "find_item",
+          1
+        ],
+        [
+          "reserve_item",
+          1
+        ],
+        [
+          "release_item",
+          1
+        ],
+        [
+          "adjust_stock",
+          1
+        ],
+        [
+          "orderrepository",
+          1
+        ],
+        [
+          "save_order",
+          1
+        ],
+        [
+          "load_order",
+          1
+        ],
+        [
+          "delete_order",
+          1
+        ]
+      ],
+      "already in the node's calls / reads / writes / throws": [
+        [
+          "audit_log",
+          12
+        ]
+      ],
+      "already in the node's name / qualified name / signature": [
+        [
+          "payload",
+          50
+        ]
+      ],
+      "already in the node's summarycomment": [
+        [
+          "status",
+          1
+        ]
+      ],
+      "found in more than 4% of all nodes": [
+        [
+          "success",
+          50
+        ],
+        [
+          "status",
+          49
+        ]
+      ]
+    },
+    "most_common_kept": []
+  },
+  "comments": {
+    "lines": {
+      "kept": 9112
+    },
+    "replaced_by_tag": {}
+  },
+  "text_fields_and_limits": {
+    "caps_hit": {},
+    "internals_found_before_caps": {
+      "calls": 0,
+      "reads": 0,
+      "writes": 12,
+      "throws": 0,
+      "resources": 0
+    },
+    "calls_not_listed": {
+      "name starts with a control word (list L6)": [
+        [
+          "delete",
+          1
+        ],
+        [
+          "export",
+          1
+        ]
+      ]
+    }
+  },
+  "calls_and_links": {},
+  "structure": {},
+  "css": {
+    "counts": {},
+    "properties_left_out": {}
+  },
+  "edges": {
+    "total": 74,
+    "by_type": {
+      "CONTAINS": 74
+    }
+  },
+  "output_guard": {
+    "limit_mb": 30.0,
+    "nodes_json_mb_before": 1.38,
+    "steps": [],
+    "result": "within the limit, nothing removed",
+    "nodes_json_mb_after": 1.38
+  },
+  "per_file": {
+    "src/controllers/auth_controller.py": {
+      "language": "python",
+      "kb": 142.3,
+      "lines": 931,
+      "zone": "product",
+      "nodes": {
+        "File": 1,
+        "Class": 1,
+        "Function": 6
+      },
+      "what_was_dropped_or_cut": {
+        "keywords.candidates": 23,
+        "keywords.dropped at extraction: stop word (list L5)": 24,
+        "keywords.dropped at extraction: the node's own name": 7,
+        "comment_lines.kept": 911,
+        "internals_found.writes": 1,
+        "keywords.dropped: already in the node's calls / reads / writes / throws": 1,
+        "keywords.dropped: already in the node's name / qualified name / signature": 5
+      }
+    },
+    "src/repositories/user_repository.py": {
+      "language": "python",
+      "kb": 142.0,
+      "lines": 931,
+      "zone": "product",
+      "nodes": {
+        "File": 1,
+        "Class": 1,
+        "Function": 6
+      },
+      "what_was_dropped_or_cut": {
+        "keywords.candidates": 22,
+        "keywords.dropped at extraction: stop word (list L5)": 25,
+        "keywords.dropped at extraction: the node's own name": 6,
+        "comment_lines.kept": 911,
+        "internals_found.writes": 1,
+        "keywords.dropped: already in the node's calls / reads / writes / throws": 1,
+        "keywords.dropped: already in the node's name / qualified name / signature": 5
+      }
+    },
+    "src/services/auth_service.py": {
+      "language": "python",
+      "kb": 145.3,
+      "lines": 931,
+      "zone": "product",
+      "nodes": {
+        "File": 1,
+        "Class": 1,
+        "Function": 6
+      },
+      "what_was_dropped_or_cut": {
+        "keywords.candidates": 23,
+        "keywords.dropped at extraction: stop word (list L5)": 24,
+        "keywords.dropped at extraction: the node's own name": 7,
+        "comment_lines.kept": 911,
+        "internals_found.writes": 1,
+        "keywords.dropped: already in the node's calls / reads / writes / throws": 1,
+        "keywords.dropped: already in the node's name / qualified name / signature": 5
+      }
+    },
+    "src/services/order_service.py": {
+      "language": "python",
+      "kb": 145.3,
+      "lines": 931,
+      "zone": "product",
+      "nodes": {
+        "File": 1,
+        "Class": 1,
+        "Function": 6
+      },
+      "what_was_dropped_or_cut": {
+        "keywords.candidates": 23,
+        "keywords.dropped at extraction: stop word (list L5)": 24,
+        "keywords.dropped at extraction: the node's own name": 7,
+        "comment_lines.kept": 911,
+        "internals_found.writes": 1,
+        "keywords.dropped: already in the node's calls / reads / writes / throws": 1,
+        "keywords.dropped: already in the node's name / qualified name / signature": 5
+      }
+    },
+    "src/services/payment_service.py": {
+      "language": "python",
+      "kb": 147.8,
+      "lines": 931,
+      "zone": "product",
+      "nodes": {
+        "File": 1,
+        "Class": 1,
+        "Function": 6
+      },
+      "what_was_dropped_or_cut": {
+        "keywords.candidates": 23,
+        "keywords.dropped at extraction: stop word (list L5)": 24,
+        "keywords.dropped at extraction: the node's own name": 7,
+        "comment_lines.kept": 911,
+        "internals_found.writes": 1,
+        "keywords.dropped: already in the node's calls / reads / writes / throws": 1,
+        "keywords.dropped: already in the node's name / qualified name / signature": 5
+      }
+    },
+    "src/controllers/order_controller.py": {
+      "language": "python",
+      "kb": 116.5,
+      "lines": 746,
+      "zone": "product",
+      "nodes": {
+        "File": 1,
+        "Class": 1,
+        "Function": 5
+      },
+      "what_was_dropped_or_cut": {
+        "keywords.candidates": 19,
+        "keywords.dropped at extraction: stop word (list L5)": 20,
+        "keywords.dropped at extraction: the node's own name": 6,
+        "comment_lines.kept": 729,
+        "internals_found.writes": 1,
+        "keywords.dropped: already in the node's calls / reads / writes / throws": 1,
+        "keywords.dropped: already in the node's name / qualified name / signature": 4
+      }
+    },
+    "src/repositories/inventory_repository.py": {
+      "language": "python",
+      "kb": 119.3,
+      "lines": 746,
+      "zone": "product",
+      "nodes": {
+        "File": 1,
+        "Class": 1,
+        "Function": 5
+      },
+      "what_was_dropped_or_cut": {
+        "keywords.candidates": 19,
+        "keywords.dropped at extraction: stop word (list L5)": 20,
+        "keywords.dropped at extraction: the node's own name": 6,
+        "comment_lines.kept": 729,
+        "internals_found.writes": 1,
+        "keywords.dropped: already in the node's calls / reads / writes / throws": 1,
+        "keywords.dropped: already in the node's name / qualified name / signature": 4
+      }
+    },
+    "src/repositories/order_repository.py": {
+      "language": "python",
+      "kb": 116.3,
+      "lines": 746,
+      "zone": "product",
+      "nodes": {
+        "File": 1,
+        "Class": 1,
+        "Function": 5
+      },
+      "what_was_dropped_or_cut": {
+        "keywords.candidates": 19,
+        "keywords.dropped at extraction: stop word (list L5)": 20,
+        "keywords.dropped at extraction: the node's own name": 6,
+        "comment_lines.kept": 729,
+        "internals_found.writes": 1,
+        "keywords.dropped: already in the node's calls / reads / writes / throws": 1,
+        "keywords.dropped: already in the node's name / qualified name / signature": 4
+      }
+    },
+    "src/services/inventory_service.py": {
+      "language": "python",
+      "kb": 118.6,
+      "lines": 746,
+      "zone": "product",
+      "nodes": {
+        "File": 1,
+        "Class": 1,
+        "Function": 5
+      },
+      "what_was_dropped_or_cut": {
+        "keywords.candidates": 19,
+        "keywords.dropped at extraction: stop word (list L5)": 20,
+        "keywords.dropped at extraction: the node's own name": 6,
+        "comment_lines.kept": 729,
+        "internals_found.writes": 1,
+        "keywords.dropped: already in the node's calls / reads / writes / throws": 1,
+        "keywords.dropped: already in the node's name / qualified name / signature": 4
+      }
+    },
+    "src/controllers/payment_controller.py": {
+      "language": "python",
+      "kb": 90.1,
+      "lines": 561,
+      "zone": "product",
+      "nodes": {
+        "File": 1,
+        "Class": 1,
+        "Function": 4
+      },
+      "what_was_dropped_or_cut": {
+        "keywords.candidates": 15,
+        "keywords.dropped at extraction: stop word (list L5)": 16,
+        "keywords.dropped at extraction: the node's own name": 5,
+        "comment_lines.kept": 547,
+        "internals_found.writes": 1,
+        "keywords.dropped: already in the node's calls / reads / writes / throws": 1,
+        "keywords.dropped: already in the node's name / qualified name / signature": 3,
+        "keywords.dropped: already in the node's summarycomment": 1
+      }
+    },
+    "src/utils/audit_logger.py": {
+      "language": "python",
+      "kb": 82.5,
+      "lines": 561,
+      "zone": "product",
+      "nodes": {
+        "File": 1,
+        "Class": 1,
+        "Function": 4
+      },
+      "what_was_dropped_or_cut": {
+        "keywords.candidates": 14,
+        "keywords.dropped at extraction: stop word (list L5)": 17,
+        "keywords.dropped at extraction: the node's own name": 4,
+        "comment_lines.kept": 547,
+        "internals_found.writes": 1,
+        "keywords.dropped: already in the node's calls / reads / writes / throws": 1,
+        "keywords.dropped: already in the node's name / qualified name / signature": 3
+      }
+    },
+    "src/utils/jwt_helper.py": {
+      "language": "python",
+      "kb": 85.3,
+      "lines": 561,
+      "zone": "product",
+      "nodes": {
+        "File": 1,
+        "Class": 1,
+        "Function": 4
+      },
+      "what_was_dropped_or_cut": {
+        "keywords.candidates": 15,
+        "keywords.dropped at extraction: stop word (list L5)": 16,
+        "keywords.dropped at extraction: the node's own name": 5,
+        "comment_lines.kept": 547,
+        "internals_found.writes": 1,
+        "keywords.dropped: already in the node's calls / reads / writes / throws": 1,
+        "keywords.dropped: already in the node's name / qualified name / signature": 3
+      }
+    }
+  },
+  "stopword": {
+    "keywords": {
+      "before": 0,
+      "after": 0,
+      "removed": 0,
+      "removed_by_rule": {}
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "kept": {
+    ".py (code)": 12
+  },
+  "skipped": {
+    ".md: file type not used": 3,
+    ".yaml: file type not used": 1,
+    ".json: file type not used": 1,
+    ".sql: file type not used": 3
+  },
+  "skipped_dirs": {
+    "docs": 1
+  },
+  "kb_by_ext_kept": {
+    ".py": 1451.3
+  },
+  "kb_by_ext_skipped": {
+    ".md": 43.0,
+    ".yaml": 6.0,
+    ".json": 8.3,
+    ".sql": 23.2
+  },
+  "source_root_share_of_code_files": 1.0,
+  "source_roots": [
+    "src"
+  ],
+  "source_roots_mode": "whole repository, files outside the source folders are zone 'support'",
+  "skipped_dir_detail": [
+    {
+      "path": "docs",
+      "rule": "R02",
+      "code_files_inside": 0,
+      "files_inside": 3
+    }
+  ],
+  "skipped_samples": {
+    "R12": [
+      "ARCHITECTURE.md",
+      "CLASS_CALL_MAP.md",
+      "README.md",
+      "config/app.yaml",
+      "config/database.json",
+      "sql/001_create_users.sql",
+      "sql/002_create_orders.sql",
+      "sql/003_create_inventory.sql"
+    ]
+  },
+  "total_kept": 12,
+  "zones": {
+    "product": 12
+  },
+  "rules_applied": [
+    {
+      "rule": "R01 source roots",
+      "active": true,
+      "setting": "auto",
+      "condition": "auto = read the whole repo; files outside src, source, lib, app, pkg, internal, cmd, include get zone 'support' (only when those folders hold 60% or more of the code files). auto_only = read only those folders.",
+      "result": [
+        "src"
+      ]
+    },
+    {
+      "rule": "R02 build, vendor or download folder",
+      "hits": 1
+    },
+    {
+      "rule": "R12 file type that is not program code, html or css",
+      "hits": 8
+    },
+    {
+      "rule": "note",
+      "text": "Full list of rules and conditions: SKIP_RULES.md in the kit"
+    }
+  ],
+  "light_source": {
+    "light_nodes": 86,
+    "style_nodes": 0,
+    "token_nodes": 0,
+    "resource_nodes": 0,
+    "ref_edges": 0,
+    "skipped_files": 0,
+    "inherited_classes": 0,
+    "keywords_removed": 162
+  },
+  "noise_removed": {},
+  "tests": {
+    "test_files": 0,
+    "test_classes": 0,
+    "test_functions": 0,
+    "test_support_nodes": 0,
+    "frameworks_by_file": {},
+    "test_folders": {},
+    "file_name_patterns": {},
+    "run": [],
+    "tests_edges": 0
+  },
+  "node_compaction": {
+    "field removed: params": 86,
+    "field removed: min_params": 86,
+    "field removed: variadic": 86,
+    "tier left out (missing = code)": 86,
+    "File qualified_name shortened to the file name": 12,
+    "stable_key left out (rebuilt as file_path::qualified_name)": 86,
+    "left out when empty: signature": 12,
+    "left out when empty: exported": 12,
+    "left out when empty: owner": 24,
+    "left out when empty: keywords": 86,
+    "left out when empty: labels": 86,
+    "left out when empty: literals": 36,
+    "left out when empty: has_source": 86,
+    "left out when empty: code_snippet": 12,
+    "left out when empty: internals": 74,
+    "left out when empty: summarycomment": 24,
+    "left out when empty: defines": 62
+  },
+  "output_guard": {
+    "limit_mb": 30.0,
+    "nodes_json_mb_before": 1.38,
+    "steps": [],
+    "result": "within the limit, nothing removed",
+    "nodes_json_mb_after": 1.38
+  },
+  "truncated_nodes": 0,
+  "size_tier_used": 0,
+  "output_sizes_mb": {
+    "nodes.json": 1.4,
+    "edges.json": 0.0
+  }
+}

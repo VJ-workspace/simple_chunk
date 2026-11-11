@@ -1,0 +1,59 @@
+{
+  "schema_version": 3,
+  "generator": "NodesEdgesgeneratortoolV43",
+  "light_source_version": "2",
+  "tier_counts": {
+    "code": 86
+  },
+  "analysed_commit": "7385a372873b7a6b71693ba55e69d0b1db76bfb3",
+  "branch": "main",
+  "graph_folder": ".aava/graph_v45",
+  "built_at": "2026-11-11T23:14:19Z",
+  "include_source_code": false,
+  "metadata_extracted": true,
+  "node_count": 86,
+  "edge_count": 74,
+  "node_fields": [
+    "code_snippet",
+    "commit_sha",
+    "defines",
+    "end_line",
+    "exported",
+    "file_path",
+    "id",
+    "internals",
+    "kind",
+    "language",
+    "literals",
+    "name",
+    "owner",
+    "qualified_name",
+    "read_from_repo",
+    "signature",
+    "source_hash",
+    "start_line",
+    "summarycomment"
+  ],
+  "tests": {
+    "test_files": 0,
+    "test_classes": 0,
+    "test_functions": 0,
+    "test_support_nodes": 0,
+    "frameworks_by_file": {},
+    "test_folders": {},
+    "file_name_patterns": {},
+    "run": [],
+    "tests_edges": 0
+  },
+  "stopword_step": {
+    "tool": "StopwordtoolV1 (merged)",
+    "fields": [
+      "keywords"
+    ],
+    "spread": 0.0,
+    "keep_tests": false,
+    "no_redundant": false,
+    "no_new_rules": false,
+    "report": "stopword_report.json"
+  }
+}

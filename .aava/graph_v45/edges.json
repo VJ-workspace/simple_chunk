@@ -1,0 +1,594 @@
+[
+  {
+    "source": "file:src/controllers/auth_controller.py",
+    "target": "class:src/controllers/auth_controller.py:AuthController",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/auth_controller.py",
+    "line": 3,
+    "extra": {}
+  },
+  {
+    "source": "class:src/controllers/auth_controller.py:AuthController",
+    "target": "function:src/controllers/auth_controller.py:AuthController.__init__",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/auth_controller.py",
+    "line": 4,
+    "extra": {}
+  },
+  {
+    "source": "class:src/controllers/auth_controller.py:AuthController",
+    "target": "function:src/controllers/auth_controller.py:AuthController.login",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/auth_controller.py",
+    "line": 7,
+    "extra": {}
+  },
+  {
+    "source": "class:src/controllers/auth_controller.py:AuthController",
+    "target": "function:src/controllers/auth_controller.py:AuthController.register",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/auth_controller.py",
+    "line": 192,
+    "extra": {}
+  },
+  {
+    "source": "class:src/controllers/auth_controller.py:AuthController",
+    "target": "function:src/controllers/auth_controller.py:AuthController.logout",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/auth_controller.py",
+    "line": 377,
+    "extra": {}
+  },
+  {
+    "source": "class:src/controllers/auth_controller.py:AuthController",
+    "target": "function:src/controllers/auth_controller.py:AuthController.refresh_token",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/auth_controller.py",
+    "line": 562,
+    "extra": {}
+  },
+  {
+    "source": "class:src/controllers/auth_controller.py:AuthController",
+    "target": "function:src/controllers/auth_controller.py:AuthController.get_profile",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/auth_controller.py",
+    "line": 747,
+    "extra": {}
+  },
+  {
+    "source": "file:src/controllers/order_controller.py",
+    "target": "class:src/controllers/order_controller.py:OrderController",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/order_controller.py",
+    "line": 3,
+    "extra": {}
+  },
+  {
+    "source": "class:src/controllers/order_controller.py:OrderController",
+    "target": "function:src/controllers/order_controller.py:OrderController.__init__",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/order_controller.py",
+    "line": 4,
+    "extra": {}
+  },
+  {
+    "source": "class:src/controllers/order_controller.py:OrderController",
+    "target": "function:src/controllers/order_controller.py:OrderController.create_order",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/order_controller.py",
+    "line": 7,
+    "extra": {}
+  },
+  {
+    "source": "class:src/controllers/order_controller.py:OrderController",
+    "target": "function:src/controllers/order_controller.py:OrderController.cancel_order",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/order_controller.py",
+    "line": 192,
+    "extra": {}
+  },
+  {
+    "source": "class:src/controllers/order_controller.py:OrderController",
+    "target": "function:src/controllers/order_controller.py:OrderController.get_order",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/order_controller.py",
+    "line": 377,
+    "extra": {}
+  },
+  {
+    "source": "class:src/controllers/order_controller.py:OrderController",
+    "target": "function:src/controllers/order_controller.py:OrderController.update_order",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/order_controller.py",
+    "line": 562,
+    "extra": {}
+  },
+  {
+    "source": "file:src/controllers/payment_controller.py",
+    "target": "class:src/controllers/payment_controller.py:PaymentController",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/payment_controller.py",
+    "line": 3,
+    "extra": {}
+  },
+  {
+    "source": "class:src/controllers/payment_controller.py:PaymentController",
+    "target": "function:src/controllers/payment_controller.py:PaymentController.__init__",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/payment_controller.py",
+    "line": 4,
+    "extra": {}
+  },
+  {
+    "source": "class:src/controllers/payment_controller.py:PaymentController",
+    "target": "function:src/controllers/payment_controller.py:PaymentController.process_payment",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/payment_controller.py",
+    "line": 7,
+    "extra": {}
+  },
+  {
+    "source": "class:src/controllers/payment_controller.py:PaymentController",
+    "target": "function:src/controllers/payment_controller.py:PaymentController.refund_payment",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/payment_controller.py",
+    "line": 192,
+    "extra": {}
+  },
+  {
+    "source": "class:src/controllers/payment_controller.py:PaymentController",
+    "target": "function:src/controllers/payment_controller.py:PaymentController.payment_status",
+    "type": "CONTAINS",
+    "file_path": "src/controllers/payment_controller.py",
+    "line": 377,
+    "extra": {}
+  },
+  {
+    "source": "file:src/repositories/inventory_repository.py",
+    "target": "class:src/repositories/inventory_repository.py:InventoryRepository",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/inventory_repository.py",
+    "line": 3,
+    "extra": {}
+  },
+  {
+    "source": "class:src/repositories/inventory_repository.py:InventoryRepository",
+    "target": "function:src/repositories/inventory_repository.py:InventoryRepository.__init__",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/inventory_repository.py",
+    "line": 4,
+    "extra": {}
+  },
+  {
+    "source": "class:src/repositories/inventory_repository.py:InventoryRepository",
+    "target": "function:src/repositories/inventory_repository.py:InventoryRepository.find_item",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/inventory_repository.py",
+    "line": 7,
+    "extra": {}
+  },
+  {
+    "source": "class:src/repositories/inventory_repository.py:InventoryRepository",
+    "target": "function:src/repositories/inventory_repository.py:InventoryRepository.reserve_item",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/inventory_repository.py",
+    "line": 192,
+    "extra": {}
+  },
+  {
+    "source": "class:src/repositories/inventory_repository.py:InventoryRepository",
+    "target": "function:src/repositories/inventory_repository.py:InventoryRepository.release_item",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/inventory_repository.py",
+    "line": 377,
+    "extra": {}
+  },
+  {
+    "source": "class:src/repositories/inventory_repository.py:InventoryRepository",
+    "target": "function:src/repositories/inventory_repository.py:InventoryRepository.adjust_stock",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/inventory_repository.py",
+    "line": 562,
+    "extra": {}
+  },
+  {
+    "source": "file:src/repositories/order_repository.py",
+    "target": "class:src/repositories/order_repository.py:OrderRepository",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/order_repository.py",
+    "line": 3,
+    "extra": {}
+  },
+  {
+    "source": "class:src/repositories/order_repository.py:OrderRepository",
+    "target": "function:src/repositories/order_repository.py:OrderRepository.__init__",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/order_repository.py",
+    "line": 4,
+    "extra": {}
+  },
+  {
+    "source": "class:src/repositories/order_repository.py:OrderRepository",
+    "target": "function:src/repositories/order_repository.py:OrderRepository.save_order",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/order_repository.py",
+    "line": 7,
+    "extra": {}
+  },
+  {
+    "source": "class:src/repositories/order_repository.py:OrderRepository",
+    "target": "function:src/repositories/order_repository.py:OrderRepository.load_order",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/order_repository.py",
+    "line": 192,
+    "extra": {}
+  },
+  {
+    "source": "class:src/repositories/order_repository.py:OrderRepository",
+    "target": "function:src/repositories/order_repository.py:OrderRepository.update_order",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/order_repository.py",
+    "line": 377,
+    "extra": {}
+  },
+  {
+    "source": "class:src/repositories/order_repository.py:OrderRepository",
+    "target": "function:src/repositories/order_repository.py:OrderRepository.delete_order",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/order_repository.py",
+    "line": 562,
+    "extra": {}
+  },
+  {
+    "source": "file:src/repositories/user_repository.py",
+    "target": "class:src/repositories/user_repository.py:UserRepository",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/user_repository.py",
+    "line": 3,
+    "extra": {}
+  },
+  {
+    "source": "class:src/repositories/user_repository.py:UserRepository",
+    "target": "function:src/repositories/user_repository.py:UserRepository.__init__",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/user_repository.py",
+    "line": 4,
+    "extra": {}
+  },
+  {
+    "source": "class:src/repositories/user_repository.py:UserRepository",
+    "target": "function:src/repositories/user_repository.py:UserRepository.create",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/user_repository.py",
+    "line": 7,
+    "extra": {}
+  },
+  {
+    "source": "class:src/repositories/user_repository.py:UserRepository",
+    "target": "function:src/repositories/user_repository.py:UserRepository.update",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/user_repository.py",
+    "line": 192,
+    "extra": {}
+  },
+  {
+    "source": "class:src/repositories/user_repository.py:UserRepository",
+    "target": "function:src/repositories/user_repository.py:UserRepository.delete",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/user_repository.py",
+    "line": 377,
+    "extra": {}
+  },
+  {
+    "source": "class:src/repositories/user_repository.py:UserRepository",
+    "target": "function:src/repositories/user_repository.py:UserRepository.find_by_id",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/user_repository.py",
+    "line": 562,
+    "extra": {}
+  },
+  {
+    "source": "class:src/repositories/user_repository.py:UserRepository",
+    "target": "function:src/repositories/user_repository.py:UserRepository.find_by_email",
+    "type": "CONTAINS",
+    "file_path": "src/repositories/user_repository.py",
+    "line": 747,
+    "extra": {}
+  },
+  {
+    "source": "file:src/services/auth_service.py",
+    "target": "class:src/services/auth_service.py:AuthService",
+    "type": "CONTAINS",
+    "file_path": "src/services/auth_service.py",
+    "line": 3,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/auth_service.py:AuthService",
+    "target": "function:src/services/auth_service.py:AuthService.__init__",
+    "type": "CONTAINS",
+    "file_path": "src/services/auth_service.py",
+    "line": 4,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/auth_service.py:AuthService",
+    "target": "function:src/services/auth_service.py:AuthService.authenticate_user",
+    "type": "CONTAINS",
+    "file_path": "src/services/auth_service.py",
+    "line": 7,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/auth_service.py:AuthService",
+    "target": "function:src/services/auth_service.py:AuthService.create_user",
+    "type": "CONTAINS",
+    "file_path": "src/services/auth_service.py",
+    "line": 192,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/auth_service.py:AuthService",
+    "target": "function:src/services/auth_service.py:AuthService.validate_password",
+    "type": "CONTAINS",
+    "file_path": "src/services/auth_service.py",
+    "line": 377,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/auth_service.py:AuthService",
+    "target": "function:src/services/auth_service.py:AuthService.refresh_jwt_token",
+    "type": "CONTAINS",
+    "file_path": "src/services/auth_service.py",
+    "line": 562,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/auth_service.py:AuthService",
+    "target": "function:src/services/auth_service.py:AuthService.load_profile",
+    "type": "CONTAINS",
+    "file_path": "src/services/auth_service.py",
+    "line": 747,
+    "extra": {}
+  },
+  {
+    "source": "file:src/services/inventory_service.py",
+    "target": "class:src/services/inventory_service.py:InventoryService",
+    "type": "CONTAINS",
+    "file_path": "src/services/inventory_service.py",
+    "line": 3,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/inventory_service.py:InventoryService",
+    "target": "function:src/services/inventory_service.py:InventoryService.__init__",
+    "type": "CONTAINS",
+    "file_path": "src/services/inventory_service.py",
+    "line": 4,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/inventory_service.py:InventoryService",
+    "target": "function:src/services/inventory_service.py:InventoryService.check_stock",
+    "type": "CONTAINS",
+    "file_path": "src/services/inventory_service.py",
+    "line": 7,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/inventory_service.py:InventoryService",
+    "target": "function:src/services/inventory_service.py:InventoryService.reserve_stock",
+    "type": "CONTAINS",
+    "file_path": "src/services/inventory_service.py",
+    "line": 192,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/inventory_service.py:InventoryService",
+    "target": "function:src/services/inventory_service.py:InventoryService.release_stock",
+    "type": "CONTAINS",
+    "file_path": "src/services/inventory_service.py",
+    "line": 377,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/inventory_service.py:InventoryService",
+    "target": "function:src/services/inventory_service.py:InventoryService.update_inventory",
+    "type": "CONTAINS",
+    "file_path": "src/services/inventory_service.py",
+    "line": 562,
+    "extra": {}
+  },
+  {
+    "source": "file:src/services/order_service.py",
+    "target": "class:src/services/order_service.py:OrderService",
+    "type": "CONTAINS",
+    "file_path": "src/services/order_service.py",
+    "line": 3,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/order_service.py:OrderService",
+    "target": "function:src/services/order_service.py:OrderService.__init__",
+    "type": "CONTAINS",
+    "file_path": "src/services/order_service.py",
+    "line": 4,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/order_service.py:OrderService",
+    "target": "function:src/services/order_service.py:OrderService.create_order",
+    "type": "CONTAINS",
+    "file_path": "src/services/order_service.py",
+    "line": 7,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/order_service.py:OrderService",
+    "target": "function:src/services/order_service.py:OrderService.reserve_inventory",
+    "type": "CONTAINS",
+    "file_path": "src/services/order_service.py",
+    "line": 192,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/order_service.py:OrderService",
+    "target": "function:src/services/order_service.py:OrderService.calculate_totals",
+    "type": "CONTAINS",
+    "file_path": "src/services/order_service.py",
+    "line": 377,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/order_service.py:OrderService",
+    "target": "function:src/services/order_service.py:OrderService.submit_order",
+    "type": "CONTAINS",
+    "file_path": "src/services/order_service.py",
+    "line": 562,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/order_service.py:OrderService",
+    "target": "function:src/services/order_service.py:OrderService.cancel_order",
+    "type": "CONTAINS",
+    "file_path": "src/services/order_service.py",
+    "line": 747,
+    "extra": {}
+  },
+  {
+    "source": "file:src/services/payment_service.py",
+    "target": "class:src/services/payment_service.py:PaymentService",
+    "type": "CONTAINS",
+    "file_path": "src/services/payment_service.py",
+    "line": 3,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/payment_service.py:PaymentService",
+    "target": "function:src/services/payment_service.py:PaymentService.__init__",
+    "type": "CONTAINS",
+    "file_path": "src/services/payment_service.py",
+    "line": 4,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/payment_service.py:PaymentService",
+    "target": "function:src/services/payment_service.py:PaymentService.validate_card",
+    "type": "CONTAINS",
+    "file_path": "src/services/payment_service.py",
+    "line": 7,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/payment_service.py:PaymentService",
+    "target": "function:src/services/payment_service.py:PaymentService.charge_card",
+    "type": "CONTAINS",
+    "file_path": "src/services/payment_service.py",
+    "line": 192,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/payment_service.py:PaymentService",
+    "target": "function:src/services/payment_service.py:PaymentService.refund_payment",
+    "type": "CONTAINS",
+    "file_path": "src/services/payment_service.py",
+    "line": 377,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/payment_service.py:PaymentService",
+    "target": "function:src/services/payment_service.py:PaymentService.build_audit_record",
+    "type": "CONTAINS",
+    "file_path": "src/services/payment_service.py",
+    "line": 562,
+    "extra": {}
+  },
+  {
+    "source": "class:src/services/payment_service.py:PaymentService",
+    "target": "function:src/services/payment_service.py:PaymentService.send_notification",
+    "type": "CONTAINS",
+    "file_path": "src/services/payment_service.py",
+    "line": 747,
+    "extra": {}
+  },
+  {
+    "source": "file:src/utils/audit_logger.py",
+    "target": "class:src/utils/audit_logger.py:AuditLogger",
+    "type": "CONTAINS",
+    "file_path": "src/utils/audit_logger.py",
+    "line": 3,
+    "extra": {}
+  },
+  {
+    "source": "class:src/utils/audit_logger.py:AuditLogger",
+    "target": "function:src/utils/audit_logger.py:AuditLogger.__init__",
+    "type": "CONTAINS",
+    "file_path": "src/utils/audit_logger.py",
+    "line": 4,
+    "extra": {}
+  },
+  {
+    "source": "class:src/utils/audit_logger.py:AuditLogger",
+    "target": "function:src/utils/audit_logger.py:AuditLogger.record",
+    "type": "CONTAINS",
+    "file_path": "src/utils/audit_logger.py",
+    "line": 7,
+    "extra": {}
+  },
+  {
+    "source": "class:src/utils/audit_logger.py:AuditLogger",
+    "target": "function:src/utils/audit_logger.py:AuditLogger.export",
+    "type": "CONTAINS",
+    "file_path": "src/utils/audit_logger.py",
+    "line": 192,
+    "extra": {}
+  },
+  {
+    "source": "class:src/utils/audit_logger.py:AuditLogger",
+    "target": "function:src/utils/audit_logger.py:AuditLogger.search",
+    "type": "CONTAINS",
+    "file_path": "src/utils/audit_logger.py",
+    "line": 377,
+    "extra": {}
+  },
+  {
+    "source": "file:src/utils/jwt_helper.py",
+    "target": "class:src/utils/jwt_helper.py:JwtHelper",
+    "type": "CONTAINS",
+    "file_path": "src/utils/jwt_helper.py",
+    "line": 3,
+    "extra": {}
+  },
+  {
+    "source": "class:src/utils/jwt_helper.py:JwtHelper",
+    "target": "function:src/utils/jwt_helper.py:JwtHelper.__init__",
+    "type": "CONTAINS",
+    "file_path": "src/utils/jwt_helper.py",
+    "line": 4,
+    "extra": {}
+  },
+  {
+    "source": "class:src/utils/jwt_helper.py:JwtHelper",
+    "target": "function:src/utils/jwt_helper.py:JwtHelper.generate_token",
+    "type": "CONTAINS",
+    "file_path": "src/utils/jwt_helper.py",
+    "line": 7,
+    "extra": {}
+  },
+  {
+    "source": "class:src/utils/jwt_helper.py:JwtHelper",
+    "target": "function:src/utils/jwt_helper.py:JwtHelper.validate_token",
+    "type": "CONTAINS",
+    "file_path": "src/utils/jwt_helper.py",
+    "line": 192,
+    "extra": {}
+  },
+  {
+    "source": "class:src/utils/jwt_helper.py:JwtHelper",
+    "target": "function:src/utils/jwt_helper.py:JwtHelper.decode_token",
+    "type": "CONTAINS",
+    "file_path": "src/utils/jwt_helper.py",
+    "line": 377,
+    "extra": {}
+  }
+]
