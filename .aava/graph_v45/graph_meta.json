@@ -5,10 +5,10 @@
   "tier_counts": {
     "code": 86
   },
-  "analysed_commit": "c1fc2937d6116750779121d63c2f574756032ae2",
+  "analysed_commit": "4c7ea34286c2b4c469ab6a748c226051c15ce06b",
   "branch": "main",
   "graph_folder": ".aava/graph_v45",
-  "built_at": "2026-11-12T22:46:07Z",
+  "built_at": "2026-11-12T22:47:05Z",
   "include_source_code": false,
   "metadata_extracted": true,
   "node_count": 86,
